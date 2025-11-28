@@ -5,11 +5,7 @@ class OfflineBanner extends StatelessWidget {
   final Widget? offlineWidget;
   final Widget? onlineWidget;
 
-  const OfflineBanner({
-    super.key,
-    this.offlineWidget,
-    this.onlineWidget,
-  });
+  const OfflineBanner({super.key, this.offlineWidget, this.onlineWidget});
 
   @override
   Widget build(BuildContext context) {

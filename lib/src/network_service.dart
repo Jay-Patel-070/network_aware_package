@@ -15,11 +15,13 @@ class NetworkService {
   }
 
   void initialize() {
-    Connectivity().onConnectivityChanged.listen((List<ConnectivityResult> results) {
+    Connectivity().onConnectivityChanged.listen((
+      List<ConnectivityResult> results,
+    ) {
       // result list can be empty when offline
-      bool isOnline = results.isNotEmpty && results.first != ConnectivityResult.none;
+      bool isOnline =
+          results.isNotEmpty && results.first != ConnectivityResult.none;
       _controller.add(isOnline);
     });
   }
-
 }
