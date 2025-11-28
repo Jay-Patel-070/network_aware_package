@@ -1,7 +1,7 @@
 name: network_aware_package
 description: A lightweight Flutter package to detect online/offline status.
 version: 1.0.0
-homepage: https://github.com/yourusername/network_aware_package
+homepage: https://github.com/Jay-Patel-070/network_aware_package
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
