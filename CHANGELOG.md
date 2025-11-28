@@ -1,3 +1,5 @@
-## 0.0.1
-
-* TODO: Describe initial release.
+## 1.0.0
+- Initial release 🎉
+- Added NetworkAwareBuilder
+- Added NetworkAwareWidget
+- Added Online/Offline reactive utilities
