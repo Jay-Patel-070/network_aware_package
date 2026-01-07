@@ -17,6 +17,11 @@ A lightweight Flutter utility to detect online/offline status in real time.
 
 Add this line to your `pubspec.yaml`:
 
+## License
+
+This project is licensed under the MIT License.
+
+
 ```yaml
 dependencies:
   network_aware_package: ^1.0.0

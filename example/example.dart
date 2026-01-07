@@ -4,7 +4,7 @@ import 'package:network_aware_package/network_aware_package.dart';
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   NetworkService.instance.initialize();
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
